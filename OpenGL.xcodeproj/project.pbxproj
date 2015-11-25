@@ -7,24 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26C89F6E1BFC30A800EC7D98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26C89F6D1BFC30A800EC7D98 /* main.cpp */; };
+		26BA4DE21C05615600334A70 /* CGLab03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BA4DE01C05615600334A70 /* CGLab03.cpp */; };
+		26C89F801BFC30B500EC7D98 /* CGLabmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26C89F781BFC30B500EC7D98 /* CGLabmain.cpp */; };
+		26C89F831BFC30C400EC7D98 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C89F821BFC30C400EC7D98 /* OpenGL.framework */; };
+		26C89F851BFC30CB00EC7D98 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C89F841BFC30CB00EC7D98 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		26C89F681BFC30A800EC7D98 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26BA4DE01C05615600334A70 /* CGLab03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGLab03.cpp; sourceTree = "<group>"; };
+		26BA4DE11C05615600334A70 /* CGLab03.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CGLab03.hpp; sourceTree = "<group>"; };
 		26C89F6A1BFC30A800EC7D98 /* OpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
-		26C89F6D1BFC30A800EC7D98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		26C89F771BFC30B500EC7D98 /* CGLabmain.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CGLabmain.hpp; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/MMLS Downloader/TGD2151 - COMPUTER GRAPHICS FUNDAMENTALS/Lab01 Files/Lab01/CGLabmain.hpp"; sourceTree = "<group>"; };
+		26C89F781BFC30B500EC7D98 /* CGLabmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGLabmain.cpp; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/MMLS Downloader/TGD2151 - COMPUTER GRAPHICS FUNDAMENTALS/Lab01 Files/Lab01/CGLabmain.cpp"; sourceTree = "<group>"; };
+		26C89F821BFC30C400EC7D98 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		26C89F841BFC30CB00EC7D98 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C89F851BFC30CB00EC7D98 /* GLUT.framework in Frameworks */,
+				26C89F831BFC30C400EC7D98 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +51,8 @@
 		26C89F611BFC30A700EC7D98 = {
 			isa = PBXGroup;
 			children = (
+				26C89F841BFC30CB00EC7D98 /* GLUT.framework */,
+				26C89F821BFC30C400EC7D98 /* OpenGL.framework */,
 				26C89F6C1BFC30A800EC7D98 /* OpenGL */,
 				26C89F6B1BFC30A800EC7D98 /* Products */,
 			);
@@ -57,7 +69,10 @@
 		26C89F6C1BFC30A800EC7D98 /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
-				26C89F6D1BFC30A800EC7D98 /* main.cpp */,
+				26C89F771BFC30B500EC7D98 /* CGLabmain.hpp */,
+				26C89F781BFC30B500EC7D98 /* CGLabmain.cpp */,
+				26BA4DE01C05615600334A70 /* CGLab03.cpp */,
+				26BA4DE11C05615600334A70 /* CGLab03.hpp */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -118,7 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26C89F6E1BFC30A800EC7D98 /* main.cpp in Sources */,
+				26BA4DE21C05615600334A70 /* CGLab03.cpp in Sources */,
+				26C89F801BFC30B500EC7D98 /* CGLabmain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +253,7 @@
 				26C89F731BFC30A800EC7D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
