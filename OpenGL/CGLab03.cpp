@@ -30,7 +30,6 @@ void MyTriangles::draw()
         float color_r = ((double) rand() / (RAND_MAX));
         float color_g = ((double) rand() / (RAND_MAX));
         float color_b = ((double) rand() / (RAND_MAX));
-        cout << color_r << " " <<  color_g << " " << color_b << endl;
         
         glColor3f(color_r, color_g,color_b );  glVertex3f( 0.0f,  10.0f,  0.0f ); // trunk vector
         glColor3f(color_r, color_g,color_b); glVertex3f(prev_x_trunk, -5.0f, prev_y_trunk );
@@ -47,7 +46,6 @@ void MyTriangles::draw()
         float color_r = ((double) rand() / (RAND_MAX));
         float color_g = ((double) rand() / (RAND_MAX));
         float color_b = ((double) rand() / (RAND_MAX));
-        cout << color_r << " " <<  color_g << " " << color_b << endl;
         
         glColor3f(color_r, color_g,color_b ); glVertex3f( 0.0f, 10.0f, 0.0f ); // first hat
         glColor3f(color_r, color_g,color_b); glVertex3f(prev_x, 5.0f, prev_y );

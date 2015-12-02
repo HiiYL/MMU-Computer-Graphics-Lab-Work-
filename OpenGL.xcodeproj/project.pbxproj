@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2689CE071C0601B80017E92F /* CGLab04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2689CE051C0601B80017E92F /* CGLab04.cpp */; };
 		26BA4DE21C05615600334A70 /* CGLab03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BA4DE01C05615600334A70 /* CGLab03.cpp */; };
 		26C89F801BFC30B500EC7D98 /* CGLabmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26C89F781BFC30B500EC7D98 /* CGLabmain.cpp */; };
 		26C89F831BFC30C400EC7D98 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C89F821BFC30C400EC7D98 /* OpenGL.framework */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2689CE051C0601B80017E92F /* CGLab04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGLab04.cpp; sourceTree = "<group>"; };
+		2689CE061C0601B80017E92F /* CGLab04.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CGLab04.hpp; sourceTree = "<group>"; };
 		26BA4DE01C05615600334A70 /* CGLab03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGLab03.cpp; sourceTree = "<group>"; };
 		26BA4DE11C05615600334A70 /* CGLab03.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CGLab03.hpp; sourceTree = "<group>"; };
 		26C89F6A1BFC30A800EC7D98 /* OpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +76,8 @@
 				26C89F781BFC30B500EC7D98 /* CGLabmain.cpp */,
 				26BA4DE01C05615600334A70 /* CGLab03.cpp */,
 				26BA4DE11C05615600334A70 /* CGLab03.hpp */,
+				2689CE051C0601B80017E92F /* CGLab04.cpp */,
+				2689CE061C0601B80017E92F /* CGLab04.hpp */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26BA4DE21C05615600334A70 /* CGLab03.cpp in Sources */,
+				2689CE071C0601B80017E92F /* CGLab04.cpp in Sources */,
 				26C89F801BFC30B500EC7D98 /* CGLabmain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
