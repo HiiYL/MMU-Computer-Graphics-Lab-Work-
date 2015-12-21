@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2689CE071C0601B80017E92F /* CGLab04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2689CE051C0601B80017E92F /* CGLab04.cpp */; };
+		26905AEA1C283E90002A6B6B /* CGLab08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26905AE81C283E90002A6B6B /* CGLab08.cpp */; };
 		26B3E5271C17BC47004572B4 /* CGLab05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B3E5251C17BC47004572B4 /* CGLab05.cpp */; };
 		26BA4DE21C05615600334A70 /* CGLab03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26BA4DE01C05615600334A70 /* CGLab03.cpp */; };
 		26C89F801BFC30B500EC7D98 /* CGLabmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26C89F781BFC30B500EC7D98 /* CGLabmain.cpp */; };
 		26C89F831BFC30C400EC7D98 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C89F821BFC30C400EC7D98 /* OpenGL.framework */; };
 		26C89F851BFC30CB00EC7D98 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C89F841BFC30CB00EC7D98 /* GLUT.framework */; };
+		26CA378A1C279A0A00F1D2CE /* CGLab06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26CA37881C279A0A00F1D2CE /* CGLab06.cpp */; };
+		26CA378D1C27A34700F1D2CE /* CGLab07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26CA378B1C27A34700F1D2CE /* CGLab07.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +33,8 @@
 /* Begin PBXFileReference section */
 		2689CE051C0601B80017E92F /* CGLab04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGLab04.cpp; sourceTree = "<group>"; };
 		2689CE061C0601B80017E92F /* CGLab04.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CGLab04.hpp; sourceTree = "<group>"; };
+		26905AE81C283E90002A6B6B /* CGLab08.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGLab08.cpp; sourceTree = "<group>"; };
+		26905AE91C283E90002A6B6B /* CGLab08.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CGLab08.hpp; sourceTree = "<group>"; };
 		26B3E5251C17BC47004572B4 /* CGLab05.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGLab05.cpp; sourceTree = "<group>"; };
 		26B3E5261C17BC47004572B4 /* CGLab05.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CGLab05.hpp; sourceTree = "<group>"; };
 		26BA4DE01C05615600334A70 /* CGLab03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGLab03.cpp; sourceTree = "<group>"; };
@@ -39,6 +44,10 @@
 		26C89F781BFC30B500EC7D98 /* CGLabmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGLabmain.cpp; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/MMLS Downloader/TGD2151 - COMPUTER GRAPHICS FUNDAMENTALS/Lab01 Files/Lab01/CGLabmain.cpp"; sourceTree = "<group>"; };
 		26C89F821BFC30C400EC7D98 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		26C89F841BFC30CB00EC7D98 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		26CA37881C279A0A00F1D2CE /* CGLab06.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGLab06.cpp; sourceTree = "<group>"; };
+		26CA37891C279A0A00F1D2CE /* CGLab06.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CGLab06.hpp; sourceTree = "<group>"; };
+		26CA378B1C27A34700F1D2CE /* CGLab07.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CGLab07.cpp; sourceTree = "<group>"; };
+		26CA378C1C27A34700F1D2CE /* CGLab07.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CGLab07.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,12 @@
 				2689CE061C0601B80017E92F /* CGLab04.hpp */,
 				26B3E5251C17BC47004572B4 /* CGLab05.cpp */,
 				26B3E5261C17BC47004572B4 /* CGLab05.hpp */,
+				26CA37881C279A0A00F1D2CE /* CGLab06.cpp */,
+				26CA37891C279A0A00F1D2CE /* CGLab06.hpp */,
+				26CA378B1C27A34700F1D2CE /* CGLab07.cpp */,
+				26CA378C1C27A34700F1D2CE /* CGLab07.hpp */,
+				26905AE81C283E90002A6B6B /* CGLab08.cpp */,
+				26905AE91C283E90002A6B6B /* CGLab08.hpp */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -143,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26905AEA1C283E90002A6B6B /* CGLab08.cpp in Sources */,
 				26BA4DE21C05615600334A70 /* CGLab03.cpp in Sources */,
 				2689CE071C0601B80017E92F /* CGLab04.cpp in Sources */,
 				26B3E5271C17BC47004572B4 /* CGLab05.cpp in Sources */,
+				26CA378A1C279A0A00F1D2CE /* CGLab06.cpp in Sources */,
+				26CA378D1C27A34700F1D2CE /* CGLab07.cpp in Sources */,
 				26C89F801BFC30B500EC7D98 /* CGLabmain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

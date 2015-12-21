@@ -42,6 +42,12 @@ namespace CGLab05 {
     private:
         GLfloat x[8], y[8], z[8]; //(x,y,z) of 8 corner points
     };
+    class MyPoints
+    {
+    public:
+        void draw();
+    };
+
     //------------------------------------
     //the main program will call methods from this class
     class MyVirtualWorld
@@ -49,6 +55,7 @@ namespace CGLab05 {
     public:
         MyStar mystar;
         MyBoundingBox myboundingbox;
+        MyPoints mypoints;
         MyVirtualWorld()
         : myboundingbox(0.0, 0.0, 0.0, 40.0, 40.0, 40.0)
         {
@@ -57,6 +64,7 @@ namespace CGLab05 {
         {
             mystar.draw();
             myboundingbox.draw();
+            mypoints.draw();
         }
         void tickTime()
         {

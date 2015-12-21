@@ -13,6 +13,8 @@
 #include <cstdlib>
 #include <ctime>
 
+#define PI 3.14159265
+
 using namespace CGLab05;
 
 
@@ -118,5 +120,33 @@ void MyBoundingBox::draw()
     }
     
     
+    glEnd();
+}
+void MyPoints::draw()
+{ glPointSize(1.0);
+//    srand(1); //* Fixed random seed, thus
+    //  the point are fixed.
+    //* Try comment this out to get
+    //  'force field' effect
+    glColor3f(1.0f, 1.0f, 1.0f);
+    GLfloat x,y,z;
+//    glBegin(GL_POINTS);
+//    for (int i=0; i<1000; ++i)
+//    {
+//        x = (rand()%10000)/10000.0 * 40.0 - 20.0;
+//        y = (rand()%10000)/10000.0 * 40.0 - 20.0;
+//        z = 0;
+//        //try this:
+//        //z = (rand()%10000)/10000.0
+//        glVertex3f(x,y,z);
+//    }
+    glLineWidth(5.0);
+    glBegin(GL_LINES);
+    for (int i = 0; i < 1000; i++) {
+        x = (float)i/50;
+        y = 10 * sin (x);
+        z = 0;
+        glVertex3f(x,y,z);
+    }
     glEnd();
 }
